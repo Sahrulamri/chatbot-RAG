@@ -1,0 +1,18 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# ChromaDB (Vector Database lokal)
+# Karena database ini bisa dibuat otomatis oleh vector.py saat dijalankan pertama kali
+chrome_langchain_db/
+
+# File konfigurasi OS / Editor
+.DS_Store
+.vscode/
+.idea/
